@@ -1,0 +1,120 @@
+
+$main-color: #4CAF4F;
+$text-color: #4D4D4D;
+$secondary-text: #717171;
+$light-background: #F5F7FA;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: $text-color;
+}
+
+.container {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: $light-background;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 84px;
+}
+
+.logo img {
+    display: block;
+    width: 155px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    a {
+        color: #18191F;
+        text-decoration: none;
+        font-size: 16px;
+    }
+}
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .login {
+        color: $main-color;
+        padding: 10px 20px;
+    }
+    .signup {
+        background-color: $main-color;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 6px;
+    }
+}
+
+.promo {
+    background-color: $light-background;
+    padding: 96px 0;
+
+    .promo-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 80px;
+    }
+
+    .promo-text {
+        max-width: 660px;
+
+        h1 {
+            font-size: 64px;
+            line-height: 1.2;
+            font-weight: 600;
+            margin: 0 0 16px;
+
+            span {
+                display: block;
+                color: $main-color;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            color: $secondary-text;
+            margin: 0 0 32px;
+        }
+    }
+
+    .promo-button {
+        display: inline-block;
+        background-color: $main-color;
+        color: white;
+        text-decoration: none;
+        padding: 14px 32px;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    .promo-image {
+        img {
+            display: block;
+            width: 391px;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #4D4D4D;
+}
+
+.container {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #F5F7FA;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 84px;
+}
+
+.logo img {
+  display: block;
+  width: 155px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-list a {
+  color: #18191F;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.nav-buttons a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.nav-buttons .login {
+  color: #4CAF4F;
+  padding: 10px 20px;
+}
+.nav-buttons .signup {
+  background-color: #4CAF4F;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.promo {
+  background-color: #F5F7FA;
+  padding: 96px 0;
+}
+.promo .promo-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+.promo .promo-text {
+  max-width: 660px;
+}
+.promo .promo-text h1 {
+  font-size: 64px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+.promo .promo-text h1 span {
+  display: block;
+  color: #4CAF4F;
+}
+.promo .promo-text p {
+  font-size: 16px;
+  color: #717171;
+  margin: 0 0 32px;
+}
+.promo .promo-button {
+  display: inline-block;
+  background-color: #4CAF4F;
+  color: white;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.promo .promo-image img {
+  display: block;
+  width: 391px;
+}/*# sourceMappingURL=style.css.map */
